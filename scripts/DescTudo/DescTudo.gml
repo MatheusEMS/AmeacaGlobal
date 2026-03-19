@@ -344,6 +344,9 @@ function SpriteAnim(qualAnim, Sprite)
 	{
 		case "idle":
 		{
+			
+			//atualizar aqui
+			
 			_sprite = [
 				spr_ani_arqueiro_idle
 				,spr_ani_lagosta_idle
