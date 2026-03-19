@@ -89,12 +89,29 @@ if limparEspeciais
 	limparEspeciais = false;	
 }
 
+//limpar menu Loja
+if limparLoja
+{
+	clicouQualLoja = noone;
+	
+	if instance_exists(obj_Loja)
+	{
+		instance_destroy(obj_Loja);
+		qtd = 1;
+		contar = 0;
+	}
+	
+	limparLoja = false;	
+}
+
+
 //aba das torres
 if aba == 1
 {
 	limparInimigos = true;
 	limparTrompas = true;
 	limparEspeciais = true;
+	limparLoja = true;
 	
 	var _tamanhoLista = array_length(listaPeixe);
 
@@ -198,6 +215,7 @@ if aba == 2
 	limparPeixes = true;
 	limparTrompas = true;
 	limparEspeciais = true;
+	limparLoja = true;
 		
 	var _tamanhoListaInim = array_length(listaInimigos);
 
@@ -306,6 +324,7 @@ if aba == 3
 	limparPeixes = true;	
 	limparInimigos= true;
 	limparEspeciais = true;
+	limparLoja = true;
 		
 	var _tamanhoListaTrompa = array_length(listaTrompas);
 
@@ -419,6 +438,7 @@ if aba == 4
 	limparPeixes = true;	
 	limparInimigos = true;
 	limparTrompas = true;
+	limparLoja = true;
 		
 	var _tamanhoListaEsp = array_length(listaEspecial);
 
@@ -536,6 +556,91 @@ if aba == 4
 	}
 }
 
+
+//aba LOJA
+if aba == 5 && !global.tutorial_ativo
+{
+	limparPeixes = true;	
+	limparInimigos = true;
+	limparTrompas = true;
+	limparEspeciais = true;
+		
+	var _tamanhoListaEsp = array_length(listaLoja);
+
+	if contar <= _tamanhoListaEsp -1
+	{
+		if contar >= fileira
+		{
+			yInicial += EspacamentoY;
+			qtd = 1;
+			fileira += fileiraInicial;
+		}
+		
+		instance_create_depth(xInicial + (qtd * spacingX), yInicial, 0, listaLoja[contar]);
+		
+		qtd ++;
+		contar++;
+	}
+	else
+	{
+		qtd = 999;
+	}
+
+	if clicouQualLoja != noone
+	{
+		if(!global.tutorial_ativo)
+		{
+			draw_sprite_ext(spr_balao, 0, 32, 160, 1.266667, 1.266667, 0, c_white, 1);
+			
+			draw_sprite(clicouQualLoja.sprite_index,0,xLeftButton , yInicial);
+			
+			draw_set_font(FontJogo);
+			draw_set_color(c_black);
+			
+			draw_text(xLeft,yInicial * 2.2, clicouQualLoja.nome);
+			
+			draw_set_font(fnt_descricoes);
+			
+			draw_text_ext(xLeft,yInicial * 2.5, clicouQualLoja.descricao, -1, room_width - 2 * xLeft);
+			
+			draw_set_font(FontJogo);
+			draw_set_color(c_white);
+			
+			//draw_text(xLeft,yInicial * 3.5, "Efeito: " + string(clicouQualLoja.efeito));
+			//draw_text(xLeft,yInicial * 4, "Tempo de Recarga: " + string(clicouQualLoja.cooldown) + " segundos");
+			//draw_text(xLeft,yInicial * 4.5, "Duração: " + string(clicouQualLoja.timer) + " segundos");
+			
+			draw_set_color(-1);
+			draw_set_font(-1);
+		}
+		
+			
+			
+			//draw_set_color(c_black);
+			draw_set_font(FontJogo);
+			
+			/*if(!global.tutorial_ativo) 
+			{
+				//draw_text(xLeft,yInicial * 6, "Libertar?  " + string(clicouQualEspecial.valorDesbloquear) + " recicláveis");
+				draw_text_outline(xLeft, yInicial * 6, "Libertar?", _cor_comprar, _contorno_comprar, 1);
+				draw_text_outline(xLeft + string_width("Libertar?_"), yInicial * 6, string(clicouQualEspecial.valorDesbloquear), _cor_recycle, _contorno_recycle, 1);
+				draw_sprite(
+					spr_reciclaveis, 0,
+					
+					xLeft +
+					string_width("Libertar?_" + string(clicouQualEspecial.valorDesbloquear) + "_") +
+					sprite_get_width(spr_reciclaveis) / 2,
+					
+					yInicial * 6 +
+					sprite_get_height(spr_reciclaveis) / 4
+				);
+			}*/
+			
+			draw_set_color(-1);
+			draw_set_font(-1);
+	}
+}
+
 //título das abas
 if aba == 1
 {
@@ -552,6 +657,10 @@ if aba == 3
 if aba == 4
 {
 	textAba = "ESPECIAIS";
+}
+if aba == 5
+{
+	textAba = "LOJA";
 }
 
 draw_set_font(fnt_creditos);

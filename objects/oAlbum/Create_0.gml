@@ -22,6 +22,7 @@ clicouQualPeixeButton = noone;
 clicouQualInimigo = noone;
 clicouQualTrompa = noone;
 clicouQualEspecial = noone;
+clicouQualLoja = noone;
 clicouQualObjetoButton = noone;
 
 aba = 0;
@@ -31,6 +32,7 @@ limparPeixes = false;
 limparInimigos = false;
 limparTrompas = false;
 limparEspeciais = false;
+limparLoja = false;
 
 //TORRES
 listaPeixe = [
@@ -66,4 +68,10 @@ listaTrompas = [
 listaEspecial = [
 	obj_especial_0_coral //Reforço Coralino
 	,obj_especial_1_golfinho //Ecco Harmônico
+];
+
+//ESPECIAIS
+listaLoja = [
+	obj_Loja_0 
+	,obj_Loja_1 
 ];
