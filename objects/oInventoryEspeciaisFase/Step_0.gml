@@ -1,0 +1,1 @@
+ForCheckInventario(INVENTORY_ESPECIAL_FASE);

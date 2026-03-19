@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"fase_2__Island_Life_Telecasted_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":122.65626,
+  "exportDir":"",
+  "name":"fase_2__Island_Life_Telecasted_",
+  "parent":{
+    "name":"Musicas",
+    "path":"folders/Music &  SFX/Musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"fase_2__Island_Life_Telecasted_.ogg",
+  "volume":1.0,
+}

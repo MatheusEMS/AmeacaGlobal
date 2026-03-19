@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"fase_1_e_tutorial__Bad__Bad__Good_Telecasted_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":154.48277,
+  "exportDir":"",
+  "name":"fase_1_e_tutorial__Bad__Bad__Good_Telecasted_",
+  "parent":{
+    "name":"Musicas",
+    "path":"folders/Music &  SFX/Musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"fase_1_e_tutorial__Bad__Bad__Good_Telecasted_.ogg",
+  "volume":1.0,
+}

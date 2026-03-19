@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"derrota__Searching_Nat_Keefe_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":160.83531,
+  "exportDir":"",
+  "name":"derrota__Searching_Nat_Keefe_",
+  "parent":{
+    "name":"Musicas",
+    "path":"folders/Music &  SFX/Musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"derrota__Searching_Nat_Keefe_.ogg",
+  "volume":1.0,
+}

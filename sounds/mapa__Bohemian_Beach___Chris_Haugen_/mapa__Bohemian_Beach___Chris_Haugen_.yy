@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mapa__Bohemian_Beach___Chris_Haugen_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":114.37594,
+  "exportDir":"",
+  "name":"mapa__Bohemian_Beach___Chris_Haugen_",
+  "parent":{
+    "name":"Musicas",
+    "path":"folders/Music &  SFX/Musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mapa__Bohemian_Beach___Chris_Haugen_.ogg",
+  "volume":1.0,
+}

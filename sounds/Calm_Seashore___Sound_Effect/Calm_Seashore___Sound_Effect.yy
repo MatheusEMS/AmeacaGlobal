@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Calm_Seashore___Sound_Effect",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":252.80107,
+  "exportDir":"",
+  "name":"Calm_Seashore___Sound_Effect",
+  "parent":{
+    "name":"Music &  SFX",
+    "path":"folders/Music &  SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Calm_Seashore___Sound_Effect.mp3",
+  "volume":1.0,
+}

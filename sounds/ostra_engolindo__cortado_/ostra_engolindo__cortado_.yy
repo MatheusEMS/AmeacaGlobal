@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"ostra_engolindo__cortado_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.26752836,
+  "exportDir":"",
+  "name":"ostra_engolindo__cortado_",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Music &  SFX/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ostra_engolindo__cortado_.mp3",
+  "volume":1.0,
+}

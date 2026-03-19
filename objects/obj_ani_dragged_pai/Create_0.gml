@@ -1,0 +1,9 @@
+animal = GameAnim(numero);
+alcance = RangeAnim(numero);
+custo = CustoAnim(numero);
+pai = noone;
+esq_offset = 0;
+dir_offset = 0;
+col_padrao = true;
+explosao = false;
+image_index = 0;

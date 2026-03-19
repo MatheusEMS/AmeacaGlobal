@@ -1,0 +1,1 @@
+//show_message("remora "+lado+" morreu");

@@ -1,0 +1,1 @@
+if(global.debug) show_debug_message("baiacu destruido");

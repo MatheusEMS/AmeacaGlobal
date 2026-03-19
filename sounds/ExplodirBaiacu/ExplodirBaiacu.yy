@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"ExplodirBaiacu",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.51870745,
+  "exportDir":"",
+  "name":"ExplodirBaiacu",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Music &  SFX/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ExplodirBaiacu.wav",
+  "volume":1.0,
+}

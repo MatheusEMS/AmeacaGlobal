@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"menu__inner_outer_Lish_Grooves_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":240.93748,
+  "exportDir":"",
+  "name":"menu__inner_outer_Lish_Grooves_",
+  "parent":{
+    "name":"Musicas",
+    "path":"folders/Music &  SFX/Musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"menu__inner_outer_Lish_Grooves_.ogg",
+  "volume":1.0,
+}

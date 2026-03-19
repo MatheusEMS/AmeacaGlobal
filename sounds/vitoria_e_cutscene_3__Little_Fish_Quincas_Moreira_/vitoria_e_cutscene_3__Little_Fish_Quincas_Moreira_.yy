@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"vitoria_e_cutscene_3__Little_Fish_Quincas_Moreira_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":-1.0,
+  "exportDir":"",
+  "name":"vitoria_e_cutscene_3__Little_Fish_Quincas_Moreira_",
+  "parent":{
+    "name":"Musicas",
+    "path":"folders/Music &  SFX/Musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"vitoria_e_cutscene_3__Little_Fish_Quincas_Moreira_.ogg",
+  "volume":1.0,
+}

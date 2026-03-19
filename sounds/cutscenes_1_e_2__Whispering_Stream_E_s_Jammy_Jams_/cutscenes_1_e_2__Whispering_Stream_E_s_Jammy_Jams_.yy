@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"cutscenes_1_e_2__Whispering_Stream_E_s_Jammy_Jams_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":183.21133,
+  "exportDir":"",
+  "name":"cutscenes_1_e_2__Whispering_Stream_E_s_Jammy_Jams_",
+  "parent":{
+    "name":"Musicas",
+    "path":"folders/Music &  SFX/Musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"cutscenes_1_e_2__Whispering_Stream_E_s_Jammy_Jams_.ogg",
+  "volume":1.0,
+}

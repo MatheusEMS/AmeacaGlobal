@@ -1,0 +1,1 @@
+ForCheckInventario(INVENTORY_CARTAS_FASE);

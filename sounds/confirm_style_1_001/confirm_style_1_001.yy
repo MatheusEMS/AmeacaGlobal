@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"confirm_style_1_001",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":6.0,
+  "exportDir":"",
+  "name":"confirm_style_1_001",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Music &  SFX/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"confirm_style_1_001.ogg",
+  "volume":0.1,
+}

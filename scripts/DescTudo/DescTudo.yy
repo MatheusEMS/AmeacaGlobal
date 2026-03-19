@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"DescTudo",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DescTudo",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

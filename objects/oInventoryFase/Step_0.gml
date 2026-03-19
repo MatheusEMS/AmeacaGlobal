@@ -1,0 +1,2 @@
+
+ForCheckInventario(INVENTORY_SLOTS_FASE);

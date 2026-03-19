@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"fase_3__Hallow_s_Beach___Quincas_Moreira_",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":118.64513,
+  "exportDir":"",
+  "name":"fase_3__Hallow_s_Beach___Quincas_Moreira_",
+  "parent":{
+    "name":"Musicas",
+    "path":"folders/Music &  SFX/Musicas.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"fase_3__Hallow_s_Beach___Quincas_Moreira_.ogg",
+  "volume":1.0,
+}
