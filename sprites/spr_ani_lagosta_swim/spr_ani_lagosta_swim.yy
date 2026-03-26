@@ -5,24 +5,24 @@
   "bbox_bottom":34,
   "bbox_left":5,
   "bbox_right":26,
-  "bbox_top":3,
+  "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"71e34c43-0050-4701-87e4-24be52e478f7","name":"71e34c43-0050-4701-87e4-24be52e478f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"548d546c-2893-464d-8475-26a381e937bb","name":"548d546c-2893-464d-8475-26a381e937bb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"33f1c3ee-5a23-46ac-8dc6-59e2501fec11","name":"33f1c3ee-5a23-46ac-8dc6-59e2501fec11","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a47a0645-d9da-4435-a82d-fba20a627062","name":"a47a0645-d9da-4435-a82d-fba20a627062","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ac8c52c5-5419-4414-9331-c645d728432a","name":"ac8c52c5-5419-4414-9331-c645d728432a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"80c561b3-344b-4637-b02d-d999780a4d09","name":"80c561b3-344b-4637-b02d-d999780a4d09","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"81dc89d2-63c4-4c32-bc37-e69d63f014c7","name":"81dc89d2-63c4-4c32-bc37-e69d63f014c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3fe66f06-fb9b-4898-be7a-e48b3266e8bc","name":"3fe66f06-fb9b-4898-be7a-e48b3266e8bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":35,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5d1f3afc-24c6-4501-8e06-d48e81972549","blendMode":0,"displayName":"default","isLocked":false,"name":"5d1f3afc-24c6-4501-8e06-d48e81972549","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cd344083-b429-4f11-ac73-71565d168ed6","blendMode":0,"displayName":"default","isLocked":false,"name":"cd344083-b429-4f11-ac73-71565d168ed6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_ani_lagosta_swim",
   "nineSlice":null,
@@ -73,10 +73,18 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"71e34c43-0050-4701-87e4-24be52e478f7","path":"sprites/spr_ani_lagosta_swim/spr_ani_lagosta_swim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"197811fe-51a9-41bb-9cc4-5220ff44b5b0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"548d546c-2893-464d-8475-26a381e937bb","path":"sprites/spr_ani_lagosta_swim/spr_ani_lagosta_swim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"9c4c5aa0-b3c9-4533-8955-92fb898df83e","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"33f1c3ee-5a23-46ac-8dc6-59e2501fec11","path":"sprites/spr_ani_lagosta_swim/spr_ani_lagosta_swim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d25f4a24-804e-49dd-a438-c2e69237e718","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"a47a0645-d9da-4435-a82d-fba20a627062","path":"sprites/spr_ani_lagosta_swim/spr_ani_lagosta_swim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"84952f5c-5946-4988-9765-10f335b0bd74","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ac8c52c5-5419-4414-9331-c645d728432a","path":"sprites/spr_ani_lagosta_swim/spr_ani_lagosta_swim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d9bc59a3-8de4-4f19-8a04-cf3a0ca45377","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"80c561b3-344b-4637-b02d-d999780a4d09","path":"sprites/spr_ani_lagosta_swim/spr_ani_lagosta_swim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e2c74d7d-7758-4992-9a0e-4713399dc686","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"81dc89d2-63c4-4c32-bc37-e69d63f014c7","path":"sprites/spr_ani_lagosta_swim/spr_ani_lagosta_swim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fde2afcd-54cf-4c9e-b9c9-095d243ee94e","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3fe66f06-fb9b-4898-be7a-e48b3266e8bc","path":"sprites/spr_ani_lagosta_swim/spr_ani_lagosta_swim.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"22ec9d93-9fa2-4cde-a3f7-5b61842a5dc9","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

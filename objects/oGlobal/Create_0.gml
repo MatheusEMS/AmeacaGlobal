@@ -5,6 +5,15 @@ global.TerminouJogo = false;
 
 global.resetFase = noone;
 
+global.skins = [
+	0 //arqueiro
+	,0 //lagosta
+	,0 //tartaruga
+	,0 //baiacu
+	,0 //poraque
+	,0 //arraia
+];
+
 #region tutorial
 global.tutorial_ativo = false;
 

@@ -12,14 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"d7a880d4-b0c1-42d5-bef7-4fc7d270e7cf","name":"d7a880d4-b0c1-42d5-bef7-4fc7d270e7cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"72df072d-d722-4a45-8b9c-ba4234078288","name":"72df072d-d722-4a45-8b9c-ba4234078288","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"5e10ab95-0ddb-4780-b382-6a424ea43e35","blendMode":0,"displayName":"default","isLocked":false,"name":"5e10ab95-0ddb-4780-b382-6a424ea43e35","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"dc7d7b0b-90dc-4c97-a76a-ef31379b949b","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"dc7d7b0b-90dc-4c97-a76a-ef31379b949b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7671f1ec-e0ec-4f54-96b9-a78a3e67201b","blendMode":0,"displayName":"default","isLocked":false,"name":"7671f1ec-e0ec-4f54-96b9-a78a3e67201b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"7c63d2e0-f5f2-44bd-bf5d-579d758df74d","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"7c63d2e0-f5f2-44bd-bf5d-579d758df74d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_ani_lagosta_icon",
   "nineSlice":null,
@@ -70,7 +72,9 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"d7a880d4-b0c1-42d5-bef7-4fc7d270e7cf","path":"sprites/spr_ani_lagosta_icon/spr_ani_lagosta_icon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"a590962c-fad2-4c99-9e9f-b5a9988486f2","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"72df072d-d722-4a45-8b9c-ba4234078288","path":"sprites/spr_ani_lagosta_icon/spr_ani_lagosta_icon.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ce259ee4-50b8-47d3-b17c-7d0bd21dc4cb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

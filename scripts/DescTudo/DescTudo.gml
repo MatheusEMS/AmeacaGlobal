@@ -331,6 +331,7 @@ function UpgradeAnim(qualAnim)
 //SPRITES TORRES
 function SpriteAnim(qualAnim, Sprite)
 {
+	//sprites finais
 	var _sprite = [
 			noone //arqueiro
 			,noone //lagosta
@@ -340,12 +341,110 @@ function SpriteAnim(qualAnim, Sprite)
 			,noone //arraia
 		];
 		
+	//sprites com skin
+	var _sprite_skin = [
+			noone //arqueiro
+			,noone //lagosta
+			,noone //tartaruga
+			,noone //baiacu
+			,noone //poraque
+			,noone //arraia
+		];
+	
+	//PREENCHENDO O ARRAY DE SPRITE SKIN
 	switch(Sprite)
 	{
 		case "idle":
 		{
 			
-			//atualizar aqui
+			_sprite_skin = [
+				spr_ani_arqueiro_idle_skin
+				,spr_ani_lagosta_idle_skin
+				,spr_ani_tartaruga_idle_skin
+				,spr_ani_baiacu_idle_skin
+				,spr_ani_enguia_idle_skin
+				,spr_ani_arraia_idle_skin
+			];
+			
+			break;
+		}
+		
+		case "swim":
+		{
+			_sprite_skin = [
+				spr_ani_arqueiro_swim_skin
+				,spr_ani_lagosta_swim_skin
+				,spr_ani_tartaruga_swim_skin
+				,noone //baiacu
+				,spr_ani_enguia_swim_skin
+				,spr_ani_arraia_swim_skin
+			];
+			
+			break;
+		}
+		
+		case "hit":
+		{
+			_sprite_skin = [
+				spr_ani_arqueiro_hit_skin
+				,spr_ani_lagosta_hit_skin
+				,spr_ani_tartaruga_hit_skin
+				,noone //baiacu
+				,spr_ani_enguia_hit_skin
+				,spr_ani_arraia_hit_skin
+			];
+			
+			break;
+		}
+		
+		case "attack":
+		{
+			_sprite_skin = [
+				spr_ani_arqueiro_attack_skin
+				,spr_ani_lagosta_attack_skin
+				,noone //tartaruga
+				,spr_ani_baiacu_idle_skin
+				,spr_ani_enguia_attack_skin
+				,spr_ani_arraia_attack_skin
+			];
+			
+			break;
+		}
+		
+		case "extra":
+		{
+			_sprite_skin = [
+				spr_ani_arqueiro_lado //cutscenes
+				,noone //lagosta
+				,spr_ani_tartaruga_hide
+				,noone //baiacu
+				,noone //poraque
+				,spr_ani_arraia_help //cutscenes
+			];
+			
+			break;
+		}
+		
+		case "album":
+		{
+			_sprite_skin = [
+				spr_ani_arqueiro_icon_skin
+				,spr_ani_lagosta_icon_skin
+				,spr_ani_tartaruga_icon_skin
+				,spr_ani_baiacu_icon_skin
+				,spr_ani_enguia_icon_skin
+				,spr_ani_arraia_icon_skin
+			];
+			
+			break;
+		}
+	}
+	
+	//PREENCHENDO O ARRAY DE SPRITE FINAL
+	switch(Sprite)
+	{
+		case "idle":
+		{
 			
 			_sprite = [
 				spr_ani_arqueiro_idle
@@ -355,6 +454,14 @@ function SpriteAnim(qualAnim, Sprite)
 				,spr_ani_enguia_idle
 				,spr_ani_arraia_idle
 			];
+			
+			for(var i = 0; i < array_length(_sprite)-1;i++)
+			{
+				if(global.skins[i])
+				{
+					_sprite[i] = _sprite_skin[i];
+				}
+			}
 			
 			break;
 		}
@@ -370,6 +477,14 @@ function SpriteAnim(qualAnim, Sprite)
 				,spr_ani_arraia_swim
 			];
 			
+			for(var i = 0; i < array_length(_sprite)-1;i++)
+			{
+				if(global.skins[i])
+				{
+					_sprite[i] = _sprite_skin[i];
+				}
+			}
+			
 			break;
 		}
 		
@@ -383,6 +498,14 @@ function SpriteAnim(qualAnim, Sprite)
 				,spr_ani_enguia_hit
 				,spr_ani_arraia_hit
 			];
+			
+			for(var i = 0; i < array_length(_sprite)-1;i++)
+			{
+				if(global.skins[i])
+				{
+					_sprite[i] = _sprite_skin[i];
+				}
+			}
 			
 			break;
 		}
@@ -398,6 +521,14 @@ function SpriteAnim(qualAnim, Sprite)
 				,spr_ani_arraia_attack
 			];
 			
+			for(var i = 0; i < array_length(_sprite)-1;i++)
+			{
+				if(global.skins[i])
+				{
+					_sprite[i] = _sprite_skin[i];
+				}
+			}
+			
 			break;
 		}
 		
@@ -412,6 +543,14 @@ function SpriteAnim(qualAnim, Sprite)
 				,spr_ani_arraia_help //cutscenes
 			];
 			
+			for(var i = 0; i < array_length(_sprite)-1;i++)
+			{
+				if(global.skins[i])
+				{
+					_sprite[i] = _sprite_skin[i];
+				}
+			}
+			
 			break;
 		}
 		
@@ -425,6 +564,14 @@ function SpriteAnim(qualAnim, Sprite)
 				,spr_ani_enguia_icon
 				,spr_ani_arraia_icon
 			];
+			
+			for(var i = 0; i < array_length(_sprite)-1;i++)
+			{
+				if(global.skins[i])
+				{
+					_sprite[i] = _sprite_skin[i];
+				}
+			}
 			
 			break;
 		}
