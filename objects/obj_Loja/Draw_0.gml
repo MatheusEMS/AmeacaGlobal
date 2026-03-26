@@ -3,7 +3,7 @@ draw_self();
 //desenhar só na sala inventario
 if(room == rm_album)
 {
-	//draw_circle(x+32,y+32,42,true);
+	//draw_circle(x+32,y-32,42,true);
 	
 	//se to trancado
 	if(trancado)

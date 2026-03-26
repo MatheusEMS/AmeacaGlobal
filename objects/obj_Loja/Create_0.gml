@@ -1,10 +1,11 @@
+image_xscale = 2;
+image_yscale = 2;
+
 
 ativo = false;
 
 clicouLoja = false;
 
 trancado = false;
-
-numero = 0;
 
 radius = 7;

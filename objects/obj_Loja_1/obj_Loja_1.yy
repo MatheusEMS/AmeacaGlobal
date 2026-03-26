@@ -1,14 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"obj_Loja_1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_Loja_1",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Loja","path":"objects/obj_Loja/obj_Loja.yy",},"propertyId":{"name":"nome","path":"objects/obj_Loja/obj_Loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"nome 2",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Loja","path":"objects/obj_Loja/obj_Loja.yy",},"propertyId":{"name":"descricao","path":"objects/obj_Loja/obj_Loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"desc 2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Loja","path":"objects/obj_Loja/obj_Loja.yy",},"propertyId":{"name":"nome","path":"objects/obj_Loja/obj_Loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Campeã de Ringue",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Loja","path":"objects/obj_Loja/obj_Loja.yy",},"propertyId":{"name":"descricao","path":"objects/obj_Loja/obj_Loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Com luvas e calção novinhos!",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Loja","path":"objects/obj_Loja/obj_Loja.yy",},"propertyId":{"name":"numero","path":"objects/obj_Loja/obj_Loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"Loja",
@@ -36,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_roxo",
-    "path":"sprites/spr_roxo/spr_roxo.yy",
+    "name":"spr_ani_lagosta_icon_skin",
+    "path":"sprites/spr_ani_lagosta_icon_skin/spr_ani_lagosta_icon_skin.yy",
   },
   "spriteMaskId":null,
   "visible":true,

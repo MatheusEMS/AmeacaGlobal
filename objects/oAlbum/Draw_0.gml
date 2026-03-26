@@ -92,14 +92,17 @@ if limparEspeciais
 //limpar menu Loja
 if limparLoja
 {
-	clicouQualLoja = noone;
+	/*clicouQualLoja = noone;
 	
 	if instance_exists(obj_Loja)
 	{
 		instance_destroy(obj_Loja);
 		qtd = 1;
 		contar = 0;
-	}
+	}*/
+	
+	instance_deactivate_layer(lojaLayer);
+	
 	
 	limparLoja = false;	
 }
@@ -564,8 +567,11 @@ if aba == 5 && !global.tutorial_ativo
 	limparInimigos = true;
 	limparTrompas = true;
 	limparEspeciais = true;
+	
+
+	instance_activate_layer(lojaLayer);
 		
-	var _tamanhoListaEsp = array_length(listaLoja);
+	/*var _tamanhoListaEsp = array_length(listaLoja);
 
 	if contar <= _tamanhoListaEsp -1
 	{
@@ -584,7 +590,7 @@ if aba == 5 && !global.tutorial_ativo
 	else
 	{
 		qtd = 999;
-	}
+	}*/
 
 	if clicouQualLoja != noone
 	{
@@ -614,7 +620,7 @@ if aba == 5 && !global.tutorial_ativo
 			draw_set_font(-1);
 		}
 		
-			
+	}
 			
 			//draw_set_color(c_black);
 			draw_set_font(FontJogo);
@@ -634,11 +640,13 @@ if aba == 5 && !global.tutorial_ativo
 					yInicial * 6 +
 					sprite_get_height(spr_reciclaveis) / 4
 				);
-			}*/
+			}
 			
 			draw_set_color(-1);
 			draw_set_font(-1);
-	}
+			
+
+	}*/
 }
 
 //título das abas

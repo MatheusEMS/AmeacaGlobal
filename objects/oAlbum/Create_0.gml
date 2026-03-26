@@ -1,5 +1,8 @@
 mensagem_tutorial = "";
 
+lojaLayer = layer_get_id("Loja");
+instance_deactivate_layer(lojaLayer);
+
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
@@ -23,6 +26,7 @@ clicouQualInimigo = noone;
 clicouQualTrompa = noone;
 clicouQualEspecial = noone;
 clicouQualLoja = noone;
+clicouQualLojaButton = noone;
 clicouQualObjetoButton = noone;
 
 aba = 0;
@@ -71,7 +75,7 @@ listaEspecial = [
 ];
 
 //ESPECIAIS
-listaLoja = [
+/*listaLoja = [
 	obj_Loja_0 
 	,obj_Loja_1 
-];
+];*/
