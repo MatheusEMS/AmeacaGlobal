@@ -6,6 +6,10 @@ ativo = false;
 
 clicouLoja = false;
 
-trancado = false;
+trancado = true;
 
 radius = 7;
+
+valorDesbloquear = 100;
+
+skin = SpriteAnim(numero, "idle",true);

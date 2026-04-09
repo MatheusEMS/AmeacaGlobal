@@ -6,3 +6,12 @@
 			oAlbum.clicouQualLoja = id; //o inventário grava que clicaram em mim
 		}	
 	}
+
+
+if !trancado
+{
+	if global.skins[numero] == 0
+	{
+		global.skins[numero] = 1;	
+	}
+}

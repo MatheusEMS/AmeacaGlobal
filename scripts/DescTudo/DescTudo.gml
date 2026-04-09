@@ -329,7 +329,7 @@ function UpgradeAnim(qualAnim)
 }
 
 //SPRITES TORRES
-function SpriteAnim(qualAnim, Sprite)
+function SpriteAnim(qualAnim, Sprite,_demostra = false)
 {
 	//sprites finais
 	var _sprite = [
@@ -457,7 +457,7 @@ function SpriteAnim(qualAnim, Sprite)
 			
 			for(var i = 0; i < array_length(_sprite)-1;i++)
 			{
-				if(global.skins[i])
+				if(global.skins[i] || _demostra)
 				{
 					_sprite[i] = _sprite_skin[i];
 				}
