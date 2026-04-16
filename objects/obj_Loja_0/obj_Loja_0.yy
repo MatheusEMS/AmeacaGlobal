@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_Loja_0",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Loja","path":"objects/obj_Loja/obj_Loja.yy",},"propertyId":{"name":"nome","path":"objects/obj_Loja/obj_Loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Peixe Robin Hood",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Loja","path":"objects/obj_Loja/obj_Loja.yy",},"propertyId":{"name":"nome","path":"objects/obj_Loja/obj_Loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Arqueiro dos Bosques",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Loja","path":"objects/obj_Loja/obj_Loja.yy",},"propertyId":{"name":"descricao","path":"objects/obj_Loja/obj_Loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Tem um belo chapéu verde com penas vermelhas.",},
   ],
   "parent":{
